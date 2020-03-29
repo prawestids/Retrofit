@@ -1,7 +1,7 @@
 package id.putraprima.retrofit.api.models;
 
 public class RegisterRequest {
-    String name, email,password, password_confirmation;
+    public String name, email, password, password_confirmation;
 
     public RegisterRequest(String name, String email, String password, String password_confirmation) {
         this.name = name;

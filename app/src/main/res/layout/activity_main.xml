@@ -9,6 +9,7 @@
 
     <Button
         android:id="@+id/btnLogin"
+        android:onClick="handlerLogin"
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:layout_marginStart="1dp"
@@ -20,6 +21,7 @@
 
     <Button
         android:id="@+id/bntToRegister"
+        android:onClick="handlerRegister"
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:text="Register"

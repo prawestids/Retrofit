@@ -1,10 +1,10 @@
 package id.putraprima.retrofit.api.models;
 
-public class ProfileResponse {
-    int id;
-    String name, email;
+public class MeResponse {
+    public int id;
+    public String name, email;
 
-    public ProfileResponse(int id, String name, String email) {
+    public MeResponse(int id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
